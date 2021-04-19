@@ -20,7 +20,7 @@ for tag in tags:
     title = tag.get('alt')
     href_link = tag.get('src').replace('?ver=6', '')
      
-    with open(title.replace(' ', '_').replace('/', '') + '.jpg', 'wb') as f:
+    with open(title.replace(' ', '_').replace('/', '').replace(',', '') + '.jpg', 'wb') as f:
          out = requests.get(href_link)
          f.write(out.content)
          print('Downloaded..')
