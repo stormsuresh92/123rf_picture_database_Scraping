@@ -22,9 +22,9 @@ for tag in tags:
     outputlist.append(dic)
        
 
-def out_put(filename):
-    df = pd.DataFrame(outputlist)
-    df.to_csv('output.csv')
+df = pd.DataFrame(outputlist)
+df.to_csv('output.csv')
+print('file downloaded.')
 
 
 
