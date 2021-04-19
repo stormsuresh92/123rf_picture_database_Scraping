@@ -5,7 +5,7 @@ import os
 
 headers = {'user-agent' : 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36'}
 
-output list = []
+outputlist = []
 
 
 url = 'https://www.123rf.com/stock-photo/dna.html?page=2sti=n0r30i4cahs4fsdzhv%7C'
