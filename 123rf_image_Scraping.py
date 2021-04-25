@@ -20,4 +20,4 @@ def get_images(url, folder):
             f.write(out.content)
             print('Downloaded..')
 
- get_images('https://www.123rf.com/stock-photo/dna.html?page=2sti=n0r30i4cahs4fsdzhv%7C', 'output_images')
+get_images('https://www.123rf.com/stock-photo/dna.html?page=2sti=n0r30i4cahs4fsdzhv%7C', 'output_images')
